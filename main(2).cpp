@@ -8,12 +8,12 @@ int main()
     size_t talla=14;
     int *edad=new int[talla];
     int sum=0;
-    for (int i=0; i<14; i++) {
+    for (int i=0; i<talla; i++) {
         cout << "¿a que edad terminaste la carrera?" << endl;
         cin >> edad[i];
         sum=sum+edad[i];
     }
-    for(int j=0; j<14; j++){
+    for(int j=0; j<talla; j++){
         cout << edad[j] << " , ";
     }    
     cout<< "la edad promedio de graduacion en la licenciatura en Fisica es: "<<sum/talla <<endl;
